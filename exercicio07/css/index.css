@@ -44,7 +44,6 @@ nav:hover {
     background-image: url('../icones/icone1_b.png');
     background-repeat: no-repeat;
     background-position: 50% 10%;
-    padding-top: 25px;
 }
 
 .ember:hover {
@@ -56,7 +55,6 @@ nav:hover {
     background-image: url('../icones/icone7_b.png');
     background-repeat: no-repeat;
     background-position: 50% 10%;
-    padding-top: 25px;
 }
 
 .youtube:hover {
