@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffcccc;
+    background-image: url('../imagens/fundo.png');
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 15%, rgba(180, 180, 180, 0.75));
+}
+
+li {
+    float: right;
+    padding-top: 0px;
+    padding-top: 25px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: black;
+}
+
+nav {
+    transform: translateY(-30px);
+    transition: 0.5s;
+}
+
+nav:hover {
+    transform: translateY(0);
+}
+
+.ember{
+    background-image: url('../icones/icone1_b.png');
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    padding-top: 25px;
+}
+
+.ember:hover {
+    background-image: url('../icones/icone1_a.png');
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+
+.youtube {
+    background-image: url('../icones/icone7_b.png');
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    padding-top: 25px;
+}
+
+.youtube:hover {
+    background-image: url('../icones/icone7_a.png');
+    background-position: 50% 10%;
+    padding-top: 25px;
+}
+
+.google {
+    background-image: url('../icones/icone5_b.png');
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    
+}
+
+.google:hover {
+    background-image: url('../icones/icone5_a.png');
+    padding-top: 25px;
+}
+
+.myspace {
+    background-image: url('../icones/icone4_b.png');
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+}
+
+.myspace:hover {
+    background-image: url('../icones/icone4_a.png');
+    padding-top: 25px;
+}
+
+.tripadvisor {
+    background-image: url('../icones/icone3_b.png');
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+}
+
+.tripadvisor:hover {
+    background-image: url('../icones/icone3_a.png');
+    padding-top: 25px;
+}
+
+.dopplr {
+   background-image: url('../icones/icone2_b.png');
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+}
+
+.dopplr:hover {
+    background-image: url('../icones/icone2_a.png');
+    padding-top: 25px;
+}
+
+.gmail {
+    background-image: url('../icones/icone6_b.png');
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+}
+
+.gmail:hover {
+    background-image: url('../icones/icone6_a.png');
+    padding-top: 25px;
+}
+
